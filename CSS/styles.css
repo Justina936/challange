@@ -1,4 +1,145 @@
-h1{
-  margin-left: auto;
+
+/*html*/
+/*-------------------------------------------------------------hero section*/
+h1 {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #778899;
 
 }
+div{
+  margin: auto;
+}
+body {
+  margin: 0;
+}
+/*-------------------------------------------------------------Hero section*/
+/*classes*/
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  width: 10%;
+}
+.TopBotton{
+  position: absolute;
+  top: 30px;
+  right: 100px;
+}
+.hero {
+  background-color: #B3EEFF;
+  position: absolute;
+  width: 1440px; /*-------------------------------------------------size?*/
+
+}
+.mockups {
+  position: absolute;
+  top: 150px;
+  right: 100px;
+  width: 45%;
+}
+
+.phero { /*-------------------------------------------------tect color?*/
+  position: absolute;
+  top: 350px;
+  left:100px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  width: 40%;
+}
+.getStartedBotton {
+  position: absolute;
+  top: 450px;
+  left: 100px;
+}
+/*--------------------------------------------------------grow together*/
+.growTogether{
+  position: relative;
+  top: 900px;
+  height: 400px;
+  margin-top: 50px;
+  background-color: white;
+  width: 80%;
+  border: 1px solid white;
+  box-shadow: 1px 1px 20px #DCDCDC;
+  border-radius: 10px;
+
+
+  }
+
+  .growTogetherPic{
+  float:right;
+    width: 40%;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    text-align: right;
+}
+/*------------------------------------------------flowing conversation*/
+.flowingConversations{
+  position: relative;
+  top: 900px;
+  height: 400px;
+  margin-top: 50px;
+  background-color: white;
+  width: 80%;
+  border: 1px solid white;
+  box-shadow: 1px 1px 20px #DCDCDC;
+;
+  border-radius: 10px;
+  }
+
+.illustrationFlowingConversation{
+  float:left;
+  width: 40%;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/*---------------------------------------------------------your users*/
+.yourUsers{
+  position: relative;
+  top: 900px;
+  height: 400px;
+  margin-top: 50px;
+  background-color: white;
+  width: 80%;
+  border: 1px solid white;
+  box-shadow: 1px 1px 20px #DCDCDC;
+  border-radius: 10px;
+  }
+  .illustrationYourUsers{
+    float: right;
+    width: 40%;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    text-align: right; /*------------------------doesnt work?*/
+
+  }
+  .footerBotton{
+  position: relative;
+  top: 1100px;
+  height: 100px;
+  margin-top: 50px;
+  background-color: white;
+  width: 50%;
+  border: 1px solid white;
+  box-shadow: 1px 1px 20px #DCDCDC;
+  border-radius: 10px;
+  padding: 70px 0;
+ text-align: center;
+  }
